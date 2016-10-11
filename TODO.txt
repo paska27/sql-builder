@@ -1,0 +1,17 @@
+test push
+
+Admin:
+===
+- restrict permissions for master 3.x branches
+- attach scruitinizer build
+
+Code:
+===
+- Update docs
+- Update/Delete join
+- orWhere with parenthesis
+- improve IN(?)
+- improve Quoter
+- improve Common\Select.setColsAlias()
+- fix tests/Sqlite/UpdateTest.testActual
+- innerJoin / leftJoin of the the same table won't work; => results in duplicate joins

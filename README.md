@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/oxynade/sql-builder.svg)](https://travis-ci.org/oxynade/sql-builder)
+
+# !!! DOCUMENTATION NEEDS AN UPDATE !!!
 # Aura.SqlQuery
 
 Provides query builders for MySQL, Postgres, SQLite, and Microsoft SQL Server.
@@ -13,23 +16,6 @@ This library requires PHP 5.3 or later; we recommend using the latest available 
 It is installable and autoloadable via Composer as [aura/sqlquery](https://packagist.org/packages/aura/sqlquery).
 
 Alternatively, [download a release](https://github.com/auraphp/Aura.SqlQuery/releases) or clone this repository, then require or include its _autoload.php_ file.
-
-### Quality
-
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/auraphp/Aura.SqlQuery/badges/quality-score.png?b=develop-2)](https://scrutinizer-ci.com/g/auraphp/Aura.SqlQuery/)
-[![Code Coverage](https://scrutinizer-ci.com/g/auraphp/Aura.SqlQuery/badges/coverage.png?b=develop-2)](https://scrutinizer-ci.com/g/auraphp/Aura.SqlQuery/)
-[![Build Status](https://travis-ci.org/auraphp/Aura.SqlQuery.png?branch=develop-2)](https://travis-ci.org/auraphp/Aura.SqlQuery)
-
-To run the unit tests at the command line, issue `phpunit` at the package root. (This requires [PHPUnit][] to be available as `phpunit`.)
-
-[PHPUnit]: http://phpunit.de/manual/
-
-This library attempts to comply with [PSR-1][], [PSR-2][], and [PSR-4][]. If
-you notice compliance oversights, please send a patch via pull request.
-
-[PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
-[PSR-2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
-[PSR-4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
 
 ### Community
 
